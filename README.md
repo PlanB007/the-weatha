@@ -15,3 +15,6 @@ server runs on ``` http://127.0.0.1:3000 ```
 
 ## Public
 run``` gulp build``` <br>
+
+## Preview
+http://werk.noudadrichem.com/weer/
