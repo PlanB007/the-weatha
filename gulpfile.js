@@ -30,12 +30,6 @@ gulp.task('stylus', function() {
     }))
 })
 
-
-gulp.task('imgs', function() {
-  gulp.src('./src/images/**/*.*')
-    .pipe(gulp.dest('public/assets/images'))
-})
-
 gulp.task('babel', function() {
   return gulp.src('./src/js/app.js')
     .pipe(sourcemaps.init())
@@ -59,4 +53,5 @@ gulp.task('server', function() {
   gulp.watch('./src/js/**/*.js', ['babel'])
 });
 
-gulp.task('default', ['html', 'imgs', 'stylus', 'babel', 'server'])
+gulp.task('default', ['html', 'stylus', 'babel', 'server'])
+gulp.task('default', ['html', 'stylus', 'babel'])
