@@ -1,23 +1,17 @@
-# React-get-started
-Simple reactJS template with sass support
-##Download
-``` git clone https://github.com/noudadrichem/React-get-started.git ```
+# The Weather
+> Displays the weather from http://xml.buienradar.nl
+
+
+``` git clone https://github.com/noudadrichem/the-weatha.git ```
 
 ## Install:
 
 ``` npm i ```
 ## Start server
-run: <br>
-``` npm start```
-npm start runs the  ```webpack-dev-server --watch``` command <br>
+run:
+``` gulp ```
 
---watch enables error reporting run
+server runs on ``` http://127.0.0.1:3000 ```
 
-server runs on port 8080
-
-``` http://127.0.0.1:8080 ```
-
-##Dist
-run
-``` webpack ./src/app.jsx``` <br>
-to create a bundle.js file.
+## Public
+run``` gulp build``` <br>
