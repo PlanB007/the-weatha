@@ -1,0 +1,22 @@
+.grid
+  height:auto
+  &:after
+    content:''
+    clear:both
+    display:block
+  .column
+    float:left
+    height:auto
+    .content
+      margin:6px
+      padding:6px
+      background:#f6f6f6
+      box-shadow:0 2px 4px 0px rgba(0,0,0,0.1)
+  &.five
+    .column
+      width:20%
+      @media (max-width:1000px)
+        width:50%
+      @media (max-width:500px)
+        width:100%
+        margin:0

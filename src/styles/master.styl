@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,300,700')
+
+white = #fafafa
+lighterblue = #2F4254
+lightblue = #3d566e
+darkblue = #2c3e50
+blue = #1e2a36
+transparentBlue = rgba(44, 62, 80, 0.85)
+grey = #646464
+
+*
+  box-sizing:border-box
+  font-weight:300
+
+h1,h2,h3,h4,h5,h6
+  color:darkblue !important
+  font-weight:700
+
+body
+  font-family:'Lato', sans-serif
+  color:grey
+  background:white
+  margin:0
+  padding:0
+
+.container
+  width:95%
+  max-width:1080px
+  margin:40px auto 0
+
+.icon
+  width:16px
+
+.right
+  float:right
+
+.left
+  float:left
+
+@import 'partials/grid'
+@import 'partials/weather'
