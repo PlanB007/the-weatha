@@ -54,4 +54,4 @@ gulp.task('server', function() {
 });
 
 gulp.task('default', ['html', 'stylus', 'babel', 'server'])
-gulp.task('default', ['html', 'stylus', 'babel'])
+gulp.task('build', ['html', 'stylus', 'babel'])
